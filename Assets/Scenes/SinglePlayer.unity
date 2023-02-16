@@ -366,6 +366,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 48e70912-8850-45f6-9ca0-b27fe937c063
     m_ActionName: Gameplay/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1875527768}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnFire
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6daf9992-5ccb-4f59-a40a-3d3decaa1677
+    m_ActionName: Gameplay/Fire[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
@@ -384,3 +400,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  laserPrefab: {fileID: 4821246099278080409, guid: 416375696f80e1f468ff0936dd9ae08a, type: 3}
